@@ -20,7 +20,7 @@ class SpeakerPlatformWin32 extends SpeakerPlatformBase {
         this.baseSpeed = BASE_SPEED;
     }
 
-    buildSpeakCommand({ text, voice, speed, encoding }) {
+    buildSpeakCommand({ text, voice, speed, encoding = 'ASCII' }) {
         let args = [];
         let pipedData = '';
         let options = {};
@@ -48,7 +48,7 @@ class SpeakerPlatformWin32 extends SpeakerPlatformBase {
         return { command: COMMAND, args, pipedData, options };
     }
 
-    buildExportCommand({ text, voice, speed, encoding, filename }) {
+    buildExportCommand({ text, voice, speed, encoding = 'ASCII', filename }) {
         let args = [];
         let pipedData = '';
         let options = {};
