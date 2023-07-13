@@ -1,11 +1,25 @@
 {
-  "name": "speakertts",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "speakertts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "keywords": [
+        "text-to-speech",
+        "TTS",
+        "speech synthesis",
+        "speech generation",
+        "speech output",
+        "natural language processing",
+        "voice synthesis",
+        "computer-generated speech",
+        "operating system TTS",
+        "system TTS",
+        "built-in TTS",
+        "OS TTS"
+    ]
 }
