@@ -1,4 +1,4 @@
-SpeakerTTS is a text-to-speech (TTS) module that converts written text into speech using built-in functions on your computer. It provides an easy and convenient way to generate high-quality speech from text input. Модуль сделан на подобии say.js, но с небольшими улучшениями и более удобной документацией.
+SpeakerTTS is a text-to-speech (TTS) module that converts written text into speech using built-in functions on your computer. It provides an easy and convenient way to generate high-quality speech from text input. The module is made similar to say.js, but with small improvements and more convenient documentation.
 
 ## Installation
 
