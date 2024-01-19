@@ -82,7 +82,7 @@ setTimeout(() => {
 
 **3. export()**
 
-To stop text, use the stop method:
+To export voice, use the export method:
 ```javascript
 speaker.export(text(String), voice(String), speed(Number), encoding(String), filename(String), callback(Function))
 ```
